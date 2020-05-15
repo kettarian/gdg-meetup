@@ -1,0 +1,11 @@
+{
+  "name": "gdg-meetup",
+  "description": "Source code for GDG Taganrog meetup",
+  "version": "1.0.0",
+  "main": "dev-server.js",
+  "license": "MIT",
+  "author": "Oleg Axenoy",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

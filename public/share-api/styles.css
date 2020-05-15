@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+}
+
+.old-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.old-buttons__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 24px;
+    margin: 0 2px;
+    margin-left: 5px;
+
+    border-radius: 3px;
+
+    fill: #fff;
+}
+
+.old-buttons__button_vk {
+    background-color: #4a76a8;
+}
+
+.old-buttons__button_vk svg {
+    width: 15px;
+    height: 9px;
+}
+
+.old-buttons__button_fb {
+    background-color: #4267b2;
+}
+
+.old-buttons__button_fb svg {
+    width: 7px;
+    height: 14px;
+}
+
+.old-buttons__button_twitter {
+    background-color: #1da1f2;
+}
+
+.old-buttons__button_twitter svg {
+    width: 12px;
+    height: 10px;
+}
+
+.old-buttons__button_tg {
+    background-color: #179cde;
+}
+
+.old-buttons__button_tg svg {
+    width: 10px;
+    height: 10px;
+}
+
+.old-buttons__button_ok {
+    background-color: #ee8208;
+}
+
+.old-buttons__button_ok svg {
+    width: 8px;
+    height: 14px;
+}
+
+.old-buttons__button_gmail {
+    background-color: #d93025;
+}
+
+.old-buttons__button_gmail svg {
+    width: 14px;
+    height: 10px;
+}

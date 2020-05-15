@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>OTP API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css-reset.css">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="../mixin.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicon.png">
+</head>
+<body >
+    <div>
+        <button class="mdc-button mdc-button--raised">
+            <span class="mdc-button__label">START WAITING FOR CODE</span>
+        </button>
+    </div>
+    <div class="input-wrap mdc-text-field mdc-text-field--outlined">
+        <input
+            type="text"
+            is="one-time-code"
+            autocomplete="one-time-code"
+            class="mdc-text-field__input"
+            aria-labelledby="my-label-id"
+        />
+        <span class="mdc-notched-outline mdc-notched-outline--notched">
+            <span class="mdc-notched-outline__leading"></span>
+            <span class="mdc-notched-outline__notch">
+                <span class="mdc-floating-label" id="my-label-id">Your Code</span>
+            </span>
+            <span class="mdc-notched-outline__trailing"></span>
+        </span>
+    </div>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>

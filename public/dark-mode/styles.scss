@@ -1,0 +1,47 @@
+body {
+    transition: all 0.2s;
+}
+
+@mixin dark {
+    body {
+        color: #fff;
+        background-color: #333;
+    }
+
+    a {
+        color: #8686f5;
+
+        &:visited {
+            color: #805e9e;
+        }
+    }
+}
+
+@mixin light {
+    body {
+        color: #333;
+        background-color: none;
+    }
+
+    a {
+        color: #8686f5;
+
+        &:visited {
+            color: #805e9e;
+        }
+    }
+}
+
+.dark-mode {
+    @include dark();
+}
+
+@media (prefers-color-scheme: dark) {
+    .with-dark-mode {
+        @include dark();
+    }
+
+    .with-dark-mode.light-mode {
+        @include light();
+    }
+}
